@@ -1,0 +1,28 @@
+{
+  "name": "api-spirit-hunter",
+  "version": "0.0.1",
+  "description": "api for spirit hunter project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/gamehorrorproject/api.git"
+  },
+  "author": "Jérémy MATHON (jeremy.mathon@epitech.eu)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gamehorrorproject/api/issues"
+  },
+  "homepage": "https://gitlab.com/gamehorrorproject/api#README",
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7"
+  }
+}
